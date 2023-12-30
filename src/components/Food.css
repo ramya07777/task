@@ -1,0 +1,37 @@
+.food{
+    background-color: #EEF7F8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food__food {
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+   
+    justify-content: space-between;
+}
+.food__top{
+    width: 12rem;
+    text-align: center;
+}
+.food__title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.food__para {
+    color: #000000;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.food__para__margin {
+   
+    font-weight: 600;
+    font-size: 1.2rem;
+ margin-bottom: 0.5rem;
+   
+}

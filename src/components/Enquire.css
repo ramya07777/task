@@ -1,0 +1,140 @@
+.enquire{
+    background-color: #002684;
+    margin-top: 3rem;
+    height: 15rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+.enquire__enquire {
+    background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.enquire__top {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    flex-direction: column;
+}
+.enquire__head{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.enquire__bottom{
+    background-color: white;
+    position: static;
+    margin-top: -8rem;
+    z-index: 1;
+    width: 90%;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.en__input {
+    display: flex;
+    flex-direction: column;
+}
+.enquire__input{
+background-color: #D9D9D9;
+border: none;
+width: 30rem;
+height: 3rem;
+padding: 1rem;
+border-radius: 0.5rem;
+
+}
+.enquire__input:focus {
+border: none;
+
+}
+.enq__bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    width: 80%;
+}
+.en__label{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.enquirebot__para{
+ font-weight: 500;
+ font-size: 1.2rem;
+}
+.enquirebot__para1{
+font-weight: 400;
+font-size: 0.8rem;
+width: 25rem;
+margin-top: 1rem;
+}
+.enquire__choose{
+   margin-top: 1rem;
+}
+.enqbotimg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #656565;
+    padding: 1rem;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+.enqbotimg__bottom{
+    margin-left: 1rem;
+}
+.enqbotimg__menu{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.enqbotimg__para{
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #696D75;
+}
+.enq__name{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin-top: 1rem;
+}
+.enq__button{
+    display: flex;
+    background-color: #002684;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+   
+}
+.enq__button:hover{
+    background-color: #002584d2;
+}
+.enq__icon{
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}

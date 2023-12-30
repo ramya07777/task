@@ -1,0 +1,95 @@
+.nutrition {
+    background-color:  #EEF7F8;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nutrition__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    justify-content: center;
+align-items: center;
+margin-top: 6rem;
+margin-bottom: 6rem;
+}
+.nutrition__bottom{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.nutrition__below {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+.nut__balance{
+    margin-left: 1rem;
+    color: #656565;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nutrition__head {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.nutrition__para{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 2rem;
+ margin-top: 1rem;
+ width: 90%;
+}
+.nut__image {
+    height: 24px;
+    width: 24px;
+}
+.nutrition__left {
+    margin-left: 3rem;
+}
+.nut__line {
+    border: 1px solid #D9D9D9;
+    width: 90%;
+}
+.nut__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nut__buttom {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.nut__para{
+
+    color: #002684;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    width: 6rem;
+}
+.nut__para1{
+
+    color: #002684;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    width: 8.5rem;
+}
+.nut__para2{
+
+    color: #002684;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    width: 6rem;
+}

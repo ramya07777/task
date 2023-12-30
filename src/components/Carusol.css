@@ -1,0 +1,63 @@
+.slide {
+    background-color: #0026841C;
+ 
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  width: 20rem !important;
+  border-radius: 0.8rem;
+}
+
+.slide__para {
+    width: 15rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.slide__head{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #67646A;
+    margin-top: 1rem;
+}
+.slide__paraa {
+    font-weight: 500;
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    color: #413D45;
+}
+.slide__week{
+    color: #002684;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.carus{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.slick-dots li button:before {
+color: #C5C5C5;
+font-size: 1.5rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+
+/* @media (max-width: 86em) {
+    .slide {
+  
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width: 84em) {
+    .slide {
+ 
+       
+        /* width: 22rem !important; */

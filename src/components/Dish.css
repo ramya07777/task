@@ -1,0 +1,130 @@
+.dish {
+    margin-top: 6rem;
+    background-color: #EEF7F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.dish__dish{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.dish__headd{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+.dish__head{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.dish__para{
+    font-weight: 400;
+    font-size: 1rem;
+    width: 39rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.dish__order{
+    color: #002684;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+.dish__arrow{
+    margin-left: 0.5rem;
+
+  }
+  .dish__img{
+    margin-top: 4.5rem;
+    gap: 2rem;
+    display: flex;
+  }
+  .dishtop{
+    background-color: #002684;
+    position: absolute;
+  margin-top: 4rem;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-left: -16.4rem;
+  }
+.dishtop__img {
+    position: relative;
+    filter: brightness(0.5);
+}
+.dishtop__below{
+    position: absolute;
+    margin-top: 32rem; 
+    color: white;
+    margin-left: -9rem;
+ 
+}
+.dishtop__head{
+font-weight: 400;
+font-size: 1rem;
+}
+.dishtop__arrow{
+    margin-left: 0.5rem;
+}
+.dishtop__para{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.dishtop__title{
+font-weight: 400;
+font-size: 1rem;
+}
+.dishtop__button{
+    background-color: #002684;
+  width: 9rem;
+  height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.dishtop__button:hover {
+    background-color: #023ed7fe;
+}
+.dishbt__img, .dishbt__img1{
+    position: relative;
+    filter: brightness(0.5);
+}
+.dishtop__beloww, .dishtop__beloww1{
+    position: absolute;
+    margin-top: -11rem;
+    color: white;
+    margin-left: 1.5rem;
+}
+.dishbt__img1{
+    position: relative;
+}
+.dish__menuu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish__t{
+    display: flex;
+    justify-content: center;
+    
+}
